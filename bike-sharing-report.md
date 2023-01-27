@@ -25,14 +25,10 @@ I would spend more time in cleaning up the data, making sure there are redundanc
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|default_vals|default_vals|default_vals|?|
-|add_features|default_vals|default_vals|default_vals|?|
-|hpo|GBM: num_leaves: lower=26, upper=66|NN: dropout_prob: 0.0, 0.5|?|?|
+|initial|default_vals|default_vals|default_vals|1.79011|
+|add_features|default_vals|default_vals|default_vals|0.68864|
+|hpo|GBM: num_leaves: lower=26, upper=66|NN: dropout_prob: 0.0, 0.5|GBM: num_boost_round: 100|0.48788|
 
-	model	hpo1	hpo2	hpo3	score
-0	initial_model	default_vals	default_vals	default_vals	1.79011
-1	add_features_model	default_vals	default_vals	default_vals	0.68864
-2	hpo_model	GBM: num_leaves: lower=26, upper=66	NN: dropout_prob: 0.0, 0.5	GBM: num_boost_round: 100	0.48788
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
